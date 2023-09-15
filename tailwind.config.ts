@@ -9,10 +9,22 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        header: "url('/images/bg-header.svg')",
       },
+      colors: {
+        darkViolet: '#110F21',
+        violet: '#252142',
+        lightViolet: "#9788FB",
+        lightGray: "#C8C8E4",
+        white: "#FFFFFF",
+
+        blue: "#84D5FF",
+        pink: "#F884FF",
+        red: "#FF84A6",
+        yellow: "#FFD384",
+        green: "#A0FF84",
+        lightGreen: "#C0ECC3"
+      }
     },
   },
   plugins: [],

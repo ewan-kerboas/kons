@@ -76,10 +76,12 @@ const HomePage = async () => {
       <section className="h-[80vh] bg-bottom bg-header bg-cover relative">
         <HeaderSubscription />
       </section>
-      <section className="mt-[150px] md:mt-[50px] py-[50px] md:px-[100px]">
+      <section className="mt-[150px] md:mt-[50px] py-[50px] md:px-[100px] relative">
+        <div className="absolute -right-1/2 w-[900px] h-[900px] hidden md:block rounded-full blur-[400px] top-0 bg-[#9788FB40]" />
         <LottieSection />
       </section>
-      <section className="px-[30px] py-[50px] md:py-[100px md:px-[40px] lg:px-[80px] flex flex-col">
+      <section className="px-[30px] py-[50px] md:py-[100px md:px-[40px] lg:px-[80px] flex flex-col relative">
+        <div className="absolute -left-1/2 w-[900px] h-[900px] hidden md:block rounded-full blur-[400px] top-0 bg-[#9788FB40]" />
         <div className="w-full lg:w-2/3 xl:w-1/2 gap-[15px] flex flex-col mx-auto">
           <h2 className="font-bold leading-[216%] md:leading-[170%] text-[24px] md:text-[30px] lg:text-[40px] lg:leading-[130%] text-center  text-transparent bg-clip-text bg-gradient-to-r from-white to-lightViolet">
             NOS PRODUITS
@@ -141,7 +143,9 @@ const HomePage = async () => {
           </div>
         </div>
       </section>
-      <section className="px-[30px] py-[50px] md:px-[40px] md:pt-0 md:pb-[100px] lg:px-[80px] lg:py-[100px] flex flex-col">
+      <section className="px-[30px] py-[50px] md:px-[40px] md:pt-0 md:pb-[100px] lg:px-[80px] lg:py-[100px] flex flex-col relative">
+        <div className="absolute -right-1/2 w-[900px] h-[900px] hidden md:block rounded-full blur-[400px] top-0 bg-[#9788FB40]" />
+
         <h2 className="font-bold leading-[216%] md:leading-[170%] text-[24px] md:text-[30px] lg:text-[40px] lg:leading-[130%] text-center  text-transparent bg-clip-text bg-gradient-to-r from-white to-lightViolet">
           NOS BOX
         </h2>
@@ -150,7 +154,6 @@ const HomePage = async () => {
       <section className="px-[20px] py-[50px] md:px-[80px] md:py-[50px]">
         <Newsletter />
       </section>
-
 
       {/* <div className="px-5">
         <ul className="grid grid-cols-12 gap-4 pb-12">

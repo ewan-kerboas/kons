@@ -15,9 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='bg-[#07060E]'>
-        <div className='bg-lightGreen text-center py-[15px] px-[30px] text-[14px] md:text-[20px]'>
-          <p>Obtenez une réduction de 10% sur votre pré-commande <span className='ml-2'>&gt;</span></p>
+      <body className='bg-[#07060E] overflow-x-hidden max-w-full'>
+        <div className='bg-lightGreen text-center py-[15px] px-[30px] md:py-[8px] text-[14px] md:text-[18px]'>
+          <p>Obtenez une réduction de 10% sur votre pré-commande</p>
         </div>
         <Navbar />
         {children}

@@ -4,7 +4,7 @@ import { Icons } from "../public/icons"
 
 const Navbar = () => {
     return (
-        <nav className="flex justify-between items-center px-[30px] py-[20px] md:px-[40px] lg:px-[80px] lg:py-[30px]">
+        <nav className="flex justify-between items-center px-[30px] py-[20px] md:px-[40px] lg:px-[80px] lg:py-[22px]">
             <div className="flex items-center md:gap-[90px]">
                 <div className="relative w-[106px] h-[26px] md:h-[25px] md:w-[100px] lg:h-[35px] lg:w-[143px]">
                     <Image src="/images/logo.svg" alt="kons-logo" fill className="object-cover" />
@@ -29,10 +29,10 @@ const Navbar = () => {
             </div>
             <ul className="flex items-center gap-[20px]">
                 <li className="cursor-pointer">
-                    <Icons.user />
+                    <Icons.user className="md:w-[24px] md:h-[24px]" />
                 </li>
                 <li className="cursor-pointer">
-                    <Icons.cart />
+                    <Icons.cart className="md:w-[24px] md:h-[24px]" />
                 </li>
             </ul>
         </nav>
